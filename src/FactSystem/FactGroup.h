@@ -10,7 +10,7 @@
 #pragma once
 
 #include "Fact.h"
-#include "QGCMAVLink.h"
+#include "comm/QGCMAVLink.h"
 #include "QGCLoggingCategory.h"
 
 #include <QStringList>

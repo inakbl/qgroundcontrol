@@ -15,8 +15,8 @@
 #define MultiVehicleManager_H
 
 #include "Vehicle.h"
-#include "QGCMAVLink.h"
-#include "QmlObjectListModel.h"
+#include "comm/QGCMAVLink.h"
+#include "QmlControls/QmlObjectListModel.h"
 #include "QGCToolbox.h"
 #include "QGCLoggingCategory.h"
 

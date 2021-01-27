@@ -31,6 +31,9 @@ fi
 OUTPUT_DIR=${3-`pwd`}
 echo "Output directory:" ${OUTPUT_DIR}
 
+# copy desktop file
+cp qgroundcontrol.desktop ${QGC_RELEASE_DIR}/qgroundcontrol.desktop
+
 # Generate AppImage using the binaries currently provided by the project.
 # These require at least GLIBC 2.14, which older distributions might not have.
 # On the other hand, 2.14 is not that recent so maybe we can just live with it.

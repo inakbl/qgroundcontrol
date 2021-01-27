@@ -16,14 +16,14 @@
 #include <QtQml>
 #include <QTextStream>
 #include <QJsonObject>
-#include <QGeoCoordinate>
+#include <QtPositioning/QGeoCoordinate>
 
-#include "QGCMAVLink.h"
+#include "comm/QGCMAVLink.h"
 #include "QGC.h"
-#include "QmlObjectListModel.h"
-#include "Fact.h"
+#include "QmlControls/QmlObjectListModel.h"
+#include "FactSystem/Fact.h"
 #include "QGCLoggingCategory.h"
-#include "QmlObjectListModel.h"
+#include "QmlControls/QmlObjectListModel.h"
 
 class SurveyComplexItem;
 class SimpleMissionItem;

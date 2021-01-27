@@ -1,4 +1,6 @@
 
+find_package(Qt5 COMPONENTS QuickControls2 Xml REQUIRED)
+
 include_directories(
 	.
 	${CMAKE_CURRENT_BINARY_DIR}
@@ -169,6 +171,8 @@ target_link_libraries(qgc
 	PRIVATE
 		shp
                 Qt5::QuickControls2
+                Qt5::Core
+                Qt5::Xml
                 z # zlib
 
 	PUBLIC

@@ -16,8 +16,8 @@
 #include <QThread>
 
 #include "QGCLoggingCategory.h"
-#include "Vehicle.h"
-#include "MultiVehicleManager.h"
+#include "Vehicle/Vehicle.h"
+#include "Vehicle/MultiVehicleManager.h"
 
 Q_DECLARE_LOGGING_CATEGORY(JoystickLog)
 Q_DECLARE_LOGGING_CATEGORY(JoystickValuesLog)

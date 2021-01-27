@@ -14,9 +14,9 @@
 #include <QTimer>
 
 #include "MissionItem.h"
-#include "QGCMAVLink.h"
+#include "comm/QGCMAVLink.h"
 #include "QGCLoggingCategory.h"
-#include "LinkInterface.h"
+#include "comm/LinkInterface.h"
 
 class Vehicle;
 class MissionCommandTree;

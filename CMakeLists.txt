@@ -184,7 +184,7 @@ else()
 	add_executable(QGroundControl ${QGC_RESOURCES})
 endif()
 
-target_link_libraries(QGroundControl PRIVATE qgc)
+target_link_libraries(QGroundControl PRIVATE qgc Qt5::Core Qt5::Xml)
 
 if(BUILD_TESTING)
         target_link_libraries(QGroundControl PRIVATE Qt5::Test)

@@ -4,7 +4,7 @@
 #include <QQuickItem>
 
 #include "VideoReceiver.h"
-#include "VideoSettings.h"
+#include "Settings/VideoSettings.h"
 
 Q_DECLARE_LOGGING_CATEGORY(GStreamerLog)
 Q_DECLARE_LOGGING_CATEGORY(GStreamerAPILog)

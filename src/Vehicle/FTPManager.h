@@ -14,9 +14,9 @@
 #include <QTimer>
 #include <QQueue>
 
-#include "UASInterface.h"
+#include "uas/UASInterface.h"
 #include "QGCLoggingCategory.h"
-#include "QGCMAVLink.h"
+#include "comm/QGCMAVLink.h"
 
 Q_DECLARE_LOGGING_CATEGORY(FTPManagerLog)
 

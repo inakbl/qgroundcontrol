@@ -15,8 +15,8 @@
 #include <QLoggingCategory>
 #include <QElapsedTimer>
 
-#include "QGCMAVLink.h"
-#include "LinkInterface.h"
+#include "comm/QGCMAVLink.h"
+#include "comm/LinkInterface.h"
 
 Q_DECLARE_LOGGING_CATEGORY(VehicleLinkManagerLog)
 

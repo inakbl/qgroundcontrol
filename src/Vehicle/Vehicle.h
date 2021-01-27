@@ -12,17 +12,17 @@
 #include <QElapsedTimer>
 #include <QObject>
 #include <QVariantList>
-#include <QGeoCoordinate>
+#include <QtPositioning/QGeoCoordinate>
 #include <QTime>
 #include <QQueue>
 
-#include "FactGroup.h"
-#include "QGCMAVLink.h"
-#include "QmlObjectListModel.h"
-#include "MAVLinkProtocol.h"
-#include "UASMessageHandler.h"
-#include "SettingsFact.h"
-#include "QGCMapCircle.h"
+#include "FactSystem/FactGroup.h"
+#include "comm/QGCMAVLink.h"
+#include "QmlControls/QmlObjectListModel.h"
+#include "comm/MAVLinkProtocol.h"
+#include "uas/UASMessageHandler.h"
+#include "FactSystem/SettingsFact.h"
+#include "MissionManager/QGCMapCircle.h"
 #include "TerrainFactGroup.h"
 #include "SysStatusSensorInfo.h"
 #include "VehicleClockFactGroup.h"
@@ -35,9 +35,9 @@
 #include "VehicleEscStatusFactGroup.h"
 #include "VehicleEstimatorStatusFactGroup.h"
 #include "VehicleLinkManager.h"
-#include "MissionManager.h"
-#include "GeoFenceManager.h"
-#include "RallyPointManager.h"
+#include "MissionManager/MissionManager.h"
+#include "MissionManager/GeoFenceManager.h"
+#include "MissionManager/RallyPointManager.h"
 #include "FTPManager.h"
 
 class UAS;

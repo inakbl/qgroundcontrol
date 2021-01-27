@@ -10,7 +10,7 @@
 #pragma once
 
 #include <QObject>
-#include <QGeoCoordinate>
+#include <QtPositioning/QGeoCoordinate>
 
 #include "QGCLoggingCategory.h"
 #include "PlanManager.h"

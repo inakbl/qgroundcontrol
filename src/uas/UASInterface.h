@@ -19,7 +19,7 @@
 #include <QColor>
 #include <QPointer>
 
-#include "LinkInterface.h"
+#include "comm/LinkInterface.h"
 
 /**
  * @brief Interface for all robots.

@@ -9,9 +9,9 @@
 
 #pragma once
 
-#include "FactGroup.h"
+#include "FactSystem/FactGroup.h"
 
-#include <QGeoCoordinate>
+#include <QtPositioning/QGeoCoordinate>
 
 class TerrainFactGroup : public FactGroup
 {

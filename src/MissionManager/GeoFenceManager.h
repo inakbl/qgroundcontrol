@@ -10,14 +10,14 @@
 #pragma once
 
 #include <QObject>
-#include <QGeoCoordinate>
+#include <QtPositioning/QGeoCoordinate>
 
 #if defined(QGC_AIRMAP_ENABLED)
 #include "AirspaceManager.h"
 #endif
 
 #include "QGCLoggingCategory.h"
-#include "FactSystem.h"
+#include "FactSystem/FactSystem.h"
 #include "PlanManager.h"
 #include "QGCFencePolygon.h"
 #include "QGCFenceCircle.h"

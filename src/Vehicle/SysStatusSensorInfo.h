@@ -9,8 +9,8 @@
 
 #pragma once
 
-#include "QGCMAVLink.h"
-#include "QmlObjectListModel.h"
+#include "comm/QGCMAVLink.h"
+#include "QmlControls/QmlObjectListModel.h"
 
 #include <QObject>
 

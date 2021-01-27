@@ -10,12 +10,12 @@
 #pragma once
 
 #include <QObject>
-#include <QGeoCoordinate>
+#include <QtPositioning/QGeoCoordinate>
 #include <QVariantList>
 #include <QPolygon>
 
-#include "QmlObjectListModel.h"
-#include "FactSystem.h"
+#include "QmlControls/QmlObjectListModel.h"
+#include "FactSystem/FactSystem.h"
 
 /// The QGCMapCircle represents a circular area which can be displayed on a Map control.
 class QGCMapCircle : public QObject

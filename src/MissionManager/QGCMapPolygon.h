@@ -11,11 +11,11 @@
 #define QGCMapPolygon_H
 
 #include <QObject>
-#include <QGeoCoordinate>
+#include <QtPositioning/QGeoCoordinate>
 #include <QVariantList>
 #include <QPolygon>
 
-#include "QmlObjectListModel.h"
+#include "QmlControls/QmlObjectListModel.h"
 #include "KMLDomDocument.h"
 
 /// The QGCMapPolygon class provides a polygon which can be displayed on a map using a map visuals control.

@@ -9,8 +9,8 @@
 
 #pragma once
 
-#include "FactGroup.h"
-#include "QGCMAVLink.h"
+#include "FactSystem/FactGroup.h"
+#include "comm/QGCMAVLink.h"
 
 class VehicleWindFactGroup : public FactGroup
 {
