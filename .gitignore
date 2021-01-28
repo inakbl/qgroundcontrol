@@ -27,6 +27,7 @@ doc/html
 doc/doxy.log
 deploy/mac
 deploy/linux
+deploy/*.AppImage
 controller_log*
 user_config.pri
 *.app

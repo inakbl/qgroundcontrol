@@ -92,3 +92,7 @@ chmod a+x ./appimagetool-x86_64.AppImage
 
 cp ${TMPDIR}/$APP".AppImage" ${OUTPUT_DIR}/$APP".AppImage"
 
+echo "change user owner"
+sudo chown inaki ${OUTPUT_DIR}/$APP".AppImage"
+echo "change group owner"
+sudo chgrp inaki ${OUTPUT_DIR}/$APP".AppImage"
